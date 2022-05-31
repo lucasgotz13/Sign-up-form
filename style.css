@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    background-color: rgb(228, 223, 223);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-family: "Macondo", cursive;
+    position: absolute;
+    left: 0.01px;
+    color: white;
+    background-color: rgba(0,0,0,65%);
+    padding: 20px 208px 20px 208px;
+}
+
+.logo-image {
+    height: 100vh;
+    width: 650px;
+}
+
+.secondary-container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-container { 
+    padding: 80px 75px;
+}
+
+.form-container {
+    padding: 20px 75px 75px 75px;
+    background-color: white;
+    box-shadow: 0px 10px 15px 0px #c6b9b9;
+    letter-spacing: 1pt;
+}
+
+.form {
+    display: grid;
+    grid: auto auto / 300px auto;
+}
+
+.form > label {
+    font-size: 16pt;
+    color: rgb(49, 48, 48);
+}
+
+.form > input {
+    border-color: rgb(126, 122, 122);
+    border-style: ridge;
+    max-width: 250px;
+    margin: 4px 0 15px 0;
+    padding: 5px;
+    border-radius: 3.5px;
+    font-size: 12pt;
+}
+
+.form-container > h2 {
+    font-size: 24pt;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(107, 107, 242);
+    box-shadow: 0px 11px 31px -11px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 11px 31px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 11px 31px -11px rgba(0,0,0,0.75); 
+}
+
+.submit-container {
+    padding: 50px 75px 75px 75px;
+}
+
+.submit-container > button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    font-size: 14.5pt;
+    padding: 17.5px 70px;
+    border: none;
+    border-radius: 12.5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.submit-paragraph {
+    font-size: 14pt;
+    margin-top: 25px;
+}
+
+.log-in {
+    color: #596D48;
+    font-weight: bold;
+}
